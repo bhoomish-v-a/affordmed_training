@@ -62,7 +62,7 @@
 <body>
     <div class="calculator">
         <input type="text" id="inputBox">
-        <button onclick="clear()" class="clear-button">Clear</button>
+        <button onclick="cleart()" class="clear-button">Clear</button>
         <div class="container text-center">
             <div class="row">
                 <div class="col"><button onclick="inputHandle('7')">7</button></div>
@@ -91,7 +91,7 @@
         </div>
     </div>
     <script>
-        function clear() {
+        function cleart() {
             document.getElementById('inputBox').value = "";
         }
         function inputHandle(x) {

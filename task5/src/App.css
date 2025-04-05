@@ -1,0 +1,48 @@
+.stopwatch-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.time-display {
+  font-size: 5rem;
+  margin-bottom: 30px;
+}
+
+.controls {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.start-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.stop-btn {
+  background-color: #ff9800;
+  color: white;
+}
+
+.reset-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
